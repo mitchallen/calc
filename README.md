@@ -54,6 +54,12 @@ You can call create multiple times to create multiple calc objects.
 Sets the internal accumulator to zero.
 
     calc.clear()
+    
+### result = object.value()
+
+Returns the current value of the internal accumulator. 
+
+	var result = calc.value();
 
 ### result = object.add(number)
 
@@ -105,6 +111,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.2.0 
+
+* added a value method
 
 #### Version 0.1.0 
 

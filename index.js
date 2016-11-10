@@ -2,7 +2,8 @@
 
 module.exports.create = () => {
     var _acc = 0;
-    return {
+    return { 
+        value: () => _acc,
         clear: () => _acc = 0,
         add: a => _acc += a,
         sub: a => _acc -= a,
