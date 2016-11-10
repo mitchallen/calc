@@ -1,4 +1,4 @@
-"use strict"; 
+"use strict";  
 
 module.exports.create = () => {
     var _acc = 0;
