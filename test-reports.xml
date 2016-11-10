@@ -1,0 +1,5 @@
+<testsuite name="Mocha Tests" tests="3" failures="0" errors="0" skipped="0" timestamp="Wed, 09 Nov 2016 22:53:43 GMT" time="0.008">
+<testcase classname="add method" name="@DEBUG should add a negative number" time="0.001"/>
+<testcase classname="module" name="should exist" time="0"/>
+<testcase classname="module" name="create method should return valid objet" time="0.001"/>
+</testsuite>

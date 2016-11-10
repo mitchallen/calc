@@ -1,0 +1,21 @@
+{
+  "name": "@mitchallen/calc",
+  "version": "0.1.0",
+  "description": "A simple calculator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "//": "To use: npm run nodemon (assumes global location of mocha)",
+    "nodemon": "nodemon /usr/local/bin/mocha -ig '@SKIP' --timeout 5000",
+    "debug":   "nodemon /usr/local/bin/mocha -g '@DEBUG' --timeout 5000",
+    "jenkins": "mocha -ig '@SKIP' --recursive --timeout 5000 -R xunit test/ > test-reports.xml"
+  },
+  "author": "Mitch Allen",
+  "license": "ISC",
+  "devDependencies": {
+    "should": "^11.1.1"
+  }
+}
